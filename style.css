@@ -17,7 +17,7 @@
 }
 
 .b-page__line{
-	background: blue;
+	background: #ccc;
 	width: 960px;
 	margin: 0 auto;
 	margin-top: 27px;
@@ -73,7 +73,7 @@
 
 .footer__design-by{
 	display: inline-block;
-	fle
+
 }
 
 .caption{
@@ -93,4 +93,23 @@
 .steps{
 	display: flex;
 	justify-content: space-between;
+}
+
+
+.meet{
+	display: flex;
+	flex-direction: column;
+}
+
+.partners{
+	display: flex;
+	justify-content: space-around;
+}
+
+.meet__button{
+	margin: auto;
+}
+
+.b-find{
+	margin: auto;
 }
