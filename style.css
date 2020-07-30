@@ -1,0 +1,68 @@
+.b-page__head-line{
+	background: white;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 27px;
+
+}
+
+.b-page__line{
+	background: blue;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 27px;
+}
+
+.b-page__footer{
+	background: white;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+
+}
+
+.b-page{
+	margin: 0;
+	padding: 0;
+	background: url(images/backgraund-img.png) no-repeat;
+	background-size: 100%;
+}
+
+.b-page__footer{
+	border-top: 5px solid #ff4e50; 
+}
+
+.footer{
+	background: #eee;
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	Justify-content: space-between;
+}
+
+.foorer__logo{
+	display: inline-block;
+	float: 
+}
+
+.footer__company{
+	display: inline-block;
+
+}
+
+.footer__partners{
+	display: inline-block;
+
+}
+
+.design-by__logo{
+	background: url(images/design-by.png) no-repeat;
+	height: 24px;
+	width: 110px;
+}
+
+
+.footer__design-by{
+	display: inline-block;
+	fle
+}
