@@ -3,12 +3,13 @@
 	background-size: 100%;
 	margin: 0 auto;
 	width: 100%;
-	height: 500px;
+	height: 800px;
 }
 
 .header{
 	width: 960px;
 	margin: auto;
+	margin-top: 50px;
 }
 
 .authorization{
@@ -42,21 +43,27 @@
 .footer{
 	width: 960px;
 	margin: auto;
+	margin-top: 25px;
 	display: flex;
 	Justify-content: space-between;
 }
 
 .foorer__logo{
+	color: #ff4e50;
+	font-family: Montserrat;
+	font-weight: bold;
 
 }
 
 .footer__company{
-
+	font-family: Montserrat;
+	font-weight: bold;
 
 }
 
 .footer__partners{
-
+	font-family: Montserrat;
+	font-weight: bold;
 }
 
 .design-by__logo{
@@ -64,7 +71,6 @@
 	height: 24px;
 	width: 110px;
 }
-
 
 .footer__design-by{
 	display: inline-block;
@@ -83,6 +89,7 @@
 	font-size: 15pt;
 	font-weight: bold;
 	color: white;
+	margin-top: 13px;
 }
 
 .steps{
@@ -107,7 +114,11 @@
 }
 
 .b-find{
+	text-align: center;
+	font-family: Montserrat;
 	margin: auto;
+	color: white;
+	margin-top: 200px;
 }
 
 .blocks-idea{
@@ -151,4 +162,114 @@
 
 .b-ideas{
 	margin-top: 50px;
+}
+
+.design-by__text{
+	color: #ccc;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.company__link{
+	margin: 5px 0px;
+	font-weight: normal;
+	font-family: Roboto;
+	font-weight: lighter;
+	font-size: 0.9em;
+}
+
+.search__text{
+	font-family: Roboto;
+	font-stretch: ultra-expanded;
+}
+
+.search-forms__button{
+	background: #ff4e50; /* Цвет фона */
+	color: #fff; /* Цвет текста */
+	padding: 10px 25px; /* Поля вокруг текста */
+	border-radius: 25px; /* Уголки */
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.search-forms__input{
+	margin: 0px 15px;
+	height: 35px;
+	width: 250px;
+}
+
+.meet__button{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14pt;
+	color: #ff4e50;
+	background-color: white;
+	border: 3px solid #ff4e50;
+	padding: 10px 25px;
+	border-radius: 25px;
+}
+
+.person__name{
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.person__info{
+	font-family: Roboto;
+}
+
+.partners{
+	margin: 0px 0px 20px 0px;
+}
+
+.b-find_button{
+	background: #ff4e50; /* Цвет фона */
+	color: #fff; /* Цвет текста */
+	padding: 10px 25px; /* Поля вокруг текста */
+	border-radius: 25px; /* Уголки */
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.authorization__sgn-up{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14pt;
+	color: white;
+	border: 3px solid white;
+	padding: 10px 25px;
+	border-radius: 25px;
+}
+
+.authorization__log-in{
+	font-family: Montserrat;
+	font-weight: bold;
+	color: white;
+	padding: 13px 25px;
+}
+
+
+.header_b-find{
+
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+}
+
+.head_line{
+	display: flex;
+	justify-content: space-between;
+}
+
+.b-find__text-m{
+	font-weight: bold;
+	font-size: 34pt;
+}
+
+.b-find__text-second{
+	font-family: Roboto;
 }
