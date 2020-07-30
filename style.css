@@ -113,3 +113,29 @@
 .b-find{
 	margin: auto;
 }
+
+.blocks-idea{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.idea__text{
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.idea__picture{
+	position: relative;
+}
+
+.idea{
+	position: relative;
+	padding: 10px 0px;
+}
