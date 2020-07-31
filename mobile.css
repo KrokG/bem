@@ -1,3 +1,24 @@
-.name {
-	color: green;
+@media (max-width: 1024px){
+	.head-line{
+		flex-direction: column;
+	}
+
+	.steps{
+		flex-direction: column;
+	}
+
+	.step{
+		height:  56%;
+	}
+	.b-step{
+		margin: 20px 0px;
+		width: 940px;
+		height:  940px;
+	}
+
+	.b-partners{
+		flex-direction: column;
+	}
+
+
 }

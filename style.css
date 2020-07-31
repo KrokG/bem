@@ -1,275 +1,216 @@
-.b-page__head-line{
+.page{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Montserrat;
+}
+
+.page__backgraund{
+	position: absolute;
 	background: url(images/backgraund-img.png) no-repeat;
-	background-size: 100%;
-	margin: 0 auto;
+	background-size: cover;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 }
 
 .header{
-	width: 960px;
-	margin: auto;
-	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.page__header{
+	width: 940px;
+	height: 700px;
+	position: relative;
+}
+
+.page__head-line{
+	margin-top: 40px;
+}
+
+.head-line{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+	color: white;
+}
+
+
+.header__head-line{
+	margin-top: 38px;
 }
 
 .authorization{
 	display: flex;
-	justify-content: flex-end;
-}
-
-.b-page__line{
-	width: 960px;
-	margin: 0 auto;
-	margin-top: 27px;
-}
-
-.b-page__footer{
-	margin-top: 70px;
-	width: 100%;
-	bottom: 0;
-}
-
-.b-page{
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
-}
-
-.b-page__footer{
-	border-top: 5px solid #ff4e50; 
-}
-
-.footer{
-	width: 960px;
-	margin: auto;
-	margin-top: 25px;
-	display: flex;
-	Justify-content: space-between;
-}
-
-.foorer__logo{
-	color: #ff4e50;
-	font-family: Montserrat;
-	font-weight: bold;
+	align-items: center;
 
 }
 
-.footer__company{
-	font-family: Montserrat;
-	font-weight: bold;
-
+.authorization__log-in_button{
+	padding: 0px 20px 0px 0px;
 }
 
-.footer__partners{
-	font-family: Montserrat;
-	font-weight: bold;
+.authorization__sing-up_button{
+	border: 2px solid white;
+	padding: 7px 13px;
+	border-radius: 20px;
 }
 
-.design-by__logo{
-	background: url(images/design-by.png) no-repeat;
-	height: 24px;
-	width: 110px;
-}
-
-.footer__design-by{
-	display: inline-block;
-}
-
-.caption{
-	margin: 30px 0px;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 15pt;
-	font-weight: bold;
-}
-
-.b-logo__logo{
-	font-family: Montserrat;
-	font-size: 15pt;
-	font-weight: bold;
-	color: white;
-	margin-top: 13px;
-}
-
-.steps{
-	display: flex;
-	justify-content: space-between;
-}
-
-
-.meet{
-	margin-top: 70px;
-	display: flex;
-	flex-direction: column;
-}
-
-.partners{
-	display: flex;
-	justify-content: space-around;
-}
-
-.meet__button{
-	margin: auto;
-}
-
-.b-find{
-	text-align: center;
-	font-family: Montserrat;
-	margin: auto;
-	color: white;
-	margin-top: 200px;
-}
-
-.blocks-idea{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.idea__text{
-	position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-family: Montserrat;
-    font-weight: bold;
-}
-
-.idea__picture{
-	position: relative;
-}
-
-.idea{
-	position: relative;
-	padding: 10px 0px;
-}
-
-.search-forms{
-	display: flex;
-}
-
-.search{
-	margin-top: 70px;
-	height: 200px;
+.b-share{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin: 135px;
+	height: 250px;
+	color: white;
+	text-align: center;
 }
 
-.b-ideas{
-	margin-top: 50px;
-}
-
-.design-by__text{
-	color: #ccc;
-	font-family: Montserrat;
+.b-shre__text-h1{
 	font-weight: bold;
+	font-size: 40pt;
 }
 
-.company__link{
-	margin: 5px 0px;
-	font-weight: normal;
+.b-shre__text-h2{
+	font-weight: 100;
 	font-family: Roboto;
-	font-weight: lighter;
-	font-size: 0.9em;
+	font-size: 18pt;
 }
 
-.search__text{
-	font-family: Roboto;
-	font-stretch: ultra-expanded;
-}
-
-.search-forms__button{
+.b-shre__button{
+	font-size: 10pt;
 	background: #ff4e50; /* Цвет фона */
 	color: #fff; /* Цвет текста */
-	padding: 10px 25px; /* Поля вокруг текста */
-	border-radius: 25px; /* Уголки */
-	font-family: Montserrat;
-	font-weight: bold;
-	font-size: 14pt;
-}
-
-.search-forms__input{
-	margin: 0px 15px;
-	height: 35px;
-	width: 250px;
-}
-
-.meet__button{
-	font-family: Montserrat;
-	font-weight: bold;
-	font-size: 14pt;
-	color: #ff4e50;
-	background-color: white;
-	border: 3px solid #ff4e50;
-	padding: 10px 25px;
+	padding: 12px 25px; /* Поля вокруг текста */
 	border-radius: 25px;
+	font-weight: 500;
 }
 
-.person__name{
-	font-family: Montserrat;
+.page__content{
+	width: 940px;
+}
+
+.content-box{
+	background: white;
+	margin-top: 94px;
+
+}
+
+.content-box__cption_text-style{
 	font-weight: bold;
+	text-align: center;
+	font-size: 16pt;
 }
 
-.person__info{
-	font-family: Roboto;
-}
-
-.partners{
-	margin: 0px 0px 20px 0px;
-}
-
-.b-find_button{
-	background: #ff4e50; /* Цвет фона */
-	color: #fff; /* Цвет текста */
-	padding: 10px 25px; /* Поля вокруг текста */
-	border-radius: 25px; /* Уголки */
-	font-family: Montserrat;
-	font-weight: bold;
-	font-size: 14pt;
-}
-
-.authorization__sgn-up{
-	font-family: Montserrat;
-	font-weight: bold;
-	font-size: 14pt;
-	color: white;
-	border: 3px solid white;
-	padding: 10px 25px;
-	border-radius: 25px;
-}
-
-.authorization__log-in{
-	font-family: Montserrat;
-	font-weight: bold;
-	color: white;
-	padding: 13px 25px;
-}
-
-
-.header_b-find{
-
-}
-
-.header{
-	display: flex;
-	flex-direction: column;
-}
-
-.head_line{
+.steps{
+	margin-top: 36px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.b-find__text-m{
-	font-weight: bold;
-	font-size: 34pt;
+.b-step{
+	width: 300px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
-.b-find__text-second{
+.steps_backgraund-1{
+	background: url(images/Layer1.png) no-repeat;
+	background-size: cover;
+}
+
+.steps_backgraund-2{
+	background: url(images/Layer2.png) no-repeat;
+	background-size: cover;
+}
+
+.steps_backgraund-3{
+	background: url(images/Layer3.png) no-repeat;
+	background-size: cover;
+}
+
+.background_style{
+	width: 100%;
+	height: 100%;
+}
+
+.b-step__h3-text{
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 0px 20px;
+}
+
+.b-step__h4-text{
 	font-family: Roboto;
+	color: white;
+	margin: 10px 20px 20px 20px;
+	font-size: 10pt;
+}
+
+.h4-text{
+	font-size: 0.85em;
+}
+
+.b-partners{
+	display: flex;
+	justify-content: space-between;
+}
+
+.person{
+	width: 234px;
+}
+
+.person_style-img{
+	margin: 30px 0px 10px 50px;
+	height: 120px;
+	width: 200px;
+}
+
+.person__img-1{
+	background: url(images/person1.png) no-repeat;
+}
+
+.person__img-2{
+	background: url(images/person2.png) no-repeat;
+}
+
+.person__img-3{
+	background: url(images/person3.png) no-repeat;
+}
+
+.person__img-4{
+	background: url(images/person4.png) no-repeat;
+}
+
+.person__name{
+	text-align: center;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-top: 20px;
+}
+
+.person__about{
+	text-align: center;
+	font-size: 10pt;
+	margin-top: 20px;
+}
+
+.content-box__button-see-other{
+	width: 160px;
+	margin-top: 35px;
+	margin-left: 375px;
+	text-align: center;
+	font-size: 10pt;
+	border: 2px solid #ff4e50;
+	padding: 10px 13px;
+	border-radius: 22px;
+	color: #ff4e50;
+	font-weight: bold;
 }
