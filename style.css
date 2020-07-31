@@ -164,7 +164,7 @@
 }
 
 .person{
-	width: 234px;
+	width: 220px;
 }
 
 .person_style-img{
@@ -197,6 +197,7 @@
 }
 
 .person__about{
+	font-family: Roboto;
 	text-align: center;
 	font-size: 10pt;
 	margin-top: 20px;
