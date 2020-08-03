@@ -162,13 +162,19 @@
 	font-size: 0.85em;
 }
 
+.content__meet{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .b-partners{
+	margin-top:35px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .person{
-	margin-top:35px;
 	width: 220px;
 	display: flex;
 	flex-direction: column;
@@ -199,7 +205,6 @@
 .content-box__button-see-other{
 	width: 160px;
 	margin-top: 35px;
-	margin-left: 375px;
 	text-align: center;
 	font-size: 10pt;
 	border: 2px solid #ff4e50;
@@ -231,12 +236,12 @@
 
 .b-idea_style-long{
 	width: 620px;
-	height: 300px;
+	height: 310px;
 }
 
 .b-idea_style{
 	width: 300px;
-	height: 300px;
+	height: 310px;
 }
 
 .b-idea__img1{
@@ -316,7 +321,7 @@
 }
 
 .footer{
-	padding: 35px;
+	padding: 35px 0px;
 	width: 940px;
 	display: flex;
 	justify-content: space-between;

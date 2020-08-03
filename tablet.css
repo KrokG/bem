@@ -1,5 +1,5 @@
 @media (min-width: 601px) and (max-width: 940px){
-	.page__content{
+	.footer, .page__header, .page__content{
 		width: 748px;
 	}
 
