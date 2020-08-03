@@ -215,3 +215,65 @@
 	color: #ff4e50;
 	font-weight: bold;
 }
+
+
+.ideas{
+	padding: 20px 0px 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.b-idea{
+	margin-top: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.b-idea__img{
+
+
+}
+
+.b-idea__text{
+	margin-top: -5px;
+	position: absolute;
+}
+
+.search{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.search-forms{
+	display: flex;
+	justify-content: center;
+}
+
+.search__text{
+	margin: 35px 0px;
+	font-family: Roboto;
+	font-size: 14pt;
+}
+.search-forms__input{
+	width: 235px;
+	margin-right: 5px;
+}
+
+.search-forms__button{
+	background: #ff4e50; /* Цвет фона */
+	color: #fff; /* Цвет текста */
+	padding: 12px 25px; /* Поля вокруг текста */
+	border-radius: 20px; /* Уголки */
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-left: 5px;
+}

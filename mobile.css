@@ -1,6 +1,47 @@
 @media (max-width: 1024px){
+
+	.page__backgraund{
+		background: url(images/mobile/backgraund-img.png) no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	.head-line__logo{
+		font-size: 4vw;
+	}
 	.head-line{
 		flex-direction: column;
+	}
+
+	.authorization{
+		font-size: 5vw;
+	}
+
+	.authorization__sing-up_button{
+		border: 6px solid white;
+		padding: 7px 13px;
+		border-radius: 50px;
+	}
+
+	.page__content{
+		margin-top: 100%;
+	}
+
+	.content-box__cption_text-style{
+		font-size: 5vw;
+	}
+
+	.b-shre__text-h1{
+		font-size: 5vw;
+	}
+
+	.b-shre__text-h2{
+		font-size: 5vw;
+	}
+
+	.b-shre__button{
+	font-size: 4.5vw;
+	border-radius: 50px;
+	font-weight: 500;
 	}
 
 	.steps{
@@ -13,12 +54,124 @@
 	.b-step{
 		margin: 20px 0px;
 		width: 940px;
-		height:  940px;
+		height:  700px;
+	}
+
+		.steps_backgraund-1{
+		background: url(images/mobile/step1.png) no-repeat;
+		background-size: cover;
+	}
+
+	.steps_backgraund-2{
+		background: url(images/mobile/step2.png) no-repeat;
+		background-size: cover;
+	}
+
+	.steps_backgraund-3{
+		background: url(images/mobile/step3.png) no-repeat;
+		background-size: cover;
+	}
+
+	.b-step__h3-text{
+		color: white;
+		font-weight: bold;
+		font-size: 8vw;
+		margin: 0px 20px;
+	}
+
+	.b-step__h4-text{
+		font-family: Roboto;
+		color: white;
+		margin: 20px 40px 40px 20px;
+		font-size: 4vw;
 	}
 
 	.b-partners{
 		flex-direction: column;
 	}
 
+
+
+	.ideas{
+		flex-direction: column;
+	}
+
+	.ideas_img1{
+		background: url(images/mobile/ideas1.png) no-repeat;
+		background-size: cover;
+
+	}
+
+	.ideas_img2{
+		background: url(images/mobile/ideas2.png) no-repeat;
+		background-size: cover;
+
+	}
+
+	.ideas_img3{
+		background: url(images/mobile/ideas3.png) no-repeat;
+		background-size: cover;
+
+	}
+
+		.ideas_img4{
+		background: url(images/mobile/ideas4.png) no-repeat;
+		background-size: cover;
+
+	}
+
+	.ideas_img5{
+		background: url(images/mobile/ideas5.png) no-repeat;
+		background-size: cover;
+
+	}
+
+	.ideas_img6{
+		background: url(images/mobile/ideas6.png) no-repeat;
+		background-size: cover;
+	}
+
+		.ideas_img7{
+		background: url(images/mobile/ideas7.png) no-repeat;
+		background-size: cover;
+	}
+
+	.b-idea__img{
+		visibility:hidden;
+	}
+
+	.b-idea__text{
+		font-size: 5vw;
+	}
+
+	.search-forms{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.search__text{
+		margin: 35px 0px;
+		font-family: Roboto;
+	}
+	.search-forms__input{
+		margin-top: 20px;
+		width: 100%;
+		margin-right: 5px;
+		font-size: 5vw;
+		height: 100px;
+	}
+
+	.search-forms__button{
+		margin-top: 20px;
+		background: #ff4e50; /* Цвет фона */
+		color: #fff; /* Цвет текста */
+		padding: 20px 25px; /* Поля вокруг текста */
+		border-radius: 50px; /* Уголки */
+		font-family: Montserrat;
+		font-weight: bold;
+		font-size: 5vw;
+		margin-left: 5px;
+	}
 
 }
