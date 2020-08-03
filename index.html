@@ -4,6 +4,7 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="mobile.css">
+		<link rel="stylesheet" type="text/css" href="tablet.css">
 		<link rel="preload" href="fonts/cicle_fina-webfont.svg" as="font" type="image/svg+xml" crossorigin="anonymous">
 		<link rel="stylesheet" type="font/ttf" href="fonts/Montserrat Regular.ttf">
 		<link rel="stylesheet" type="font/ttf" href="fonts/MotserratBold.ttf">
@@ -13,7 +14,7 @@
 		<div class="page__backgraund">
 		</div>
 		<div class="header page__header">
-			<!--footer -->
+			<!--header -->
 			<div class="head-line header__head-line">
 				<div class="head-line__logo">DREAMSHARE</div>
 				<div class="authorization head-line__authorization">
@@ -40,7 +41,7 @@
 		<!--content -->
 		<div class="content page__content">
 			<div class="content-box content__how-works">
-				<div class="content-box__caption content-box__cption_text-style">
+				<div class="content-box__caption content-box__cption_text-style content-box_caption-mobile">
 					How Dreamshare works?
 				</div>
 				<div class="steps content-box__steps">
@@ -77,8 +78,7 @@
 				</div>
 				<div class="b-partners content-box__b-partners">
 					<div class="person">
-						<div class="person__img-1 person_style-img">
-						</div>
+						<img class="person__img" src="images/person1.png">
 						<div class="person__name">
 							Bradley Hunter
 						</div>
@@ -86,9 +86,8 @@
 							Based in Chicago. I love playing tennis and loud music.
 						</div>
 					</div>
-					<div class="person">
-						<div class="person__img-2 person_style-img">
-						</div>
+					<div class="person person-2">
+						<img class="person__img" src="images/person2.png">
 						<div class="person__name">
 							Heather Walker
 						</div>
@@ -96,9 +95,8 @@
 							I'm a happy person that loves cats and climbing on mountains.
 						</div>
 					</div>
-					<div class="person">
-						<div class="person__img-3 person_style-img">
-						</div>
+					<div class="person person-3">
+						<img class="person__img" src="images/person3.png">
 						<div class="person__name">
 							Lucas Marsha
 						</div>
@@ -107,8 +105,7 @@
 						</div>
 					</div>
 					<div class="person">
-						<div class="person__img-4 person_style-img">
-						</div>
+						<img class="person__img" src="images/person4.png">
 						<div class="person__name">
 							Bradley Hunter
 						</div>
@@ -128,33 +125,40 @@
 				</div>
 				<div class="ideas">
 
-					<div class="b-idea ideas_img1">
-						<img class="b-idea__img " src="images/idea1.png" />
+					<div class="b-idea">
+						<div class="b-idea_style b-idea__img1">
+						</div>
 						<div class="b-idea__text">Sport and Activity</div>
 					</div>
 
-					<div class="b-idea ideas_img2">
-						<img class="b-idea__img " src="images/idea2.png" />
+					<div class="b-idea">
+						<div class="b-idea_style b-idea__img2">
+						</div>
 						<div class="b-idea__text">Wellnes and Health</div>
 					</div>
-					<div class="b-idea ideas_img3">
-						<img class="b-idea__img b-idea-img1" src="images/idea3.png" />
+					<div class="b-idea">
+						<div class="b-idea_style b-idea__img3">
+						</div>
 						<div class="b-idea__text">Extreme Sports<br>and Expeditions</div>
 					</div>
-					<div class="b-idea ideas_img4">
-						<img class="b-idea__img" src="images/idea4.png" />
+					<div class="b-idea">
+						<div class="b-idea_style b-idea__img4">
+						</div>
 						<div class="b-idea__text">Games</div>
 					</div>
-					<div class="b-idea ideas_img5">
-						<img class="b-idea__img" src="images/idea5.png" />
+					<div class="b-idea">
+						<div class="b-idea_style-long b-idea__img5">
+						</div>
 						<div class="b-idea__text">Culture and Education</div>
 					</div>
-					<div class="b-idea ideas_img6">
-						<img class="b-idea__img" src="images/idea6.png" />
+					<div class="b-idea">
+						<div class="b-idea_style-long b-idea__img6">
+						</div>
 						<div class="b-idea__text">Relaxation</div>
 					</div>
-					<div class="b-idea ideas_img7">
-						<img class="b-idea__img" src="images/idea7.png" />
+					<div class="b-idea">
+						<div class="b-idea_style b-idea__img7">
+						</div>
 						<div class="b-idea__text">Travelling</div>
 					</div>
 
@@ -183,7 +187,31 @@
 
 		</div>
 		<!--footer -->
-		<div class="footer page__footer">
+		<div class="page__footer">
+			<div class="footer">
+				<div class="foorer__logo">
+						DREAMSHARE
+				</div>
+				<div class="company footer__company">
+						<div class="company_text-style">Company</div>
+						<div class="b-company-link">
+							<div class="company__link">About</div>
+							<div class="company__link">Contacts</div>
+							<div class="company__link">Press</div>
+							<div class="company__link">Blog</div>
+						</div>
+				</div>
+				<div class="footer__partners">
+					Partners
+				</div>
+				<div class="footer__design-by design-by">
+					<div class="design-by__text">
+						DESIGN BY
+					</div>
+					<img src="images/design-by.png" class="design-by__logo" />
+				</div>
+			</div>
+		</div>
 		</div>
 	</body>
 </html>

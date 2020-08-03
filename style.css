@@ -1,4 +1,5 @@
 .page{
+	color: #333333;
 	margin: 0px;
 	padding: 0px;
 	display: flex;
@@ -11,6 +12,7 @@
 	position: absolute;
 	background: url(images/backgraund-img.png) no-repeat;
 	background-size: cover;
+	background-position: center;
 	width: 100%;
 	height: 700px;
 }
@@ -95,9 +97,7 @@
 }
 
 .content-box{
-	background: white;
 	margin-top: 94px;
-
 }
 
 .content-box__cption_text-style{
@@ -118,21 +118,25 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+
 }
 
 .steps_backgraund-1{
 	background: url(images/Layer1.png) no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .steps_backgraund-2{
 	background: url(images/Layer2.png) no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .steps_backgraund-3{
 	background: url(images/Layer3.png) no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .background_style{
@@ -164,30 +168,19 @@
 }
 
 .person{
+	margin-top:35px;
 	width: 220px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.person_style-img{
-	margin: 30px 0px 10px 50px;
-	height: 120px;
-	width: 200px;
+.person__img{
+	padding-left: 6px;
+	width: 124px;
+	height: 125px;
 }
 
-.person__img-1{
-	background: url(images/person1.png) no-repeat;
-}
-
-.person__img-2{
-	background: url(images/person2.png) no-repeat;
-}
-
-.person__img-3{
-	background: url(images/person3.png) no-repeat;
-}
-
-.person__img-4{
-	background: url(images/person4.png) no-repeat;
-}
 
 .person__name{
 	text-align: center;
@@ -233,11 +226,49 @@
 	color: white;
 	font-weight: bold;
 	font-size: 16pt;
+
 }
 
-.b-idea__img{
+.b-idea_style-long{
+	width: 620px;
+	height: 300px;
+}
 
+.b-idea_style{
+	width: 300px;
+	height: 300px;
+}
 
+.b-idea__img1{
+		background: url(images/idea1.png) no-repeat;
+		background-size: cover;
+}
+
+.b-idea__img2{
+		background: url(images/idea2.png) no-repeat;
+		background-size: cover;
+}
+
+.b-idea__img3{
+		background: url(images/idea3.png) no-repeat;
+		background-size: cover;
+}
+.b-idea__img4{
+		background: url(images/idea4.png) no-repeat;
+		background-size: cover;
+}
+.b-idea__img5{
+		background: url(images/idea5.png) no-repeat;
+		background-size: cover;
+}
+.b-idea__img6{
+		background: url(images/idea6.png) no-repeat;
+		background-size: cover;
+}
+
+.b-idea__img7{
+		background: url(images/idea7.png) no-repeat;
+		background-size: cover;
 }
 
 .b-idea__text{
@@ -276,4 +307,54 @@
 	font-weight: bold;
 	font-size: 10pt;
 	margin-left: 5px;
+}
+
+.page__footer{
+	border-top: 5px solid #ff4e50; 
+	margin-top: 100px;
+	width: 100%;
+}
+
+.footer{
+	padding: 35px;
+	width: 940px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.foorer__logo{
+	color: #ff4e50;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.footer__company{
+	padding-right: 40px;
+}
+
+.company_text-style{
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 11pt;
+}
+
+.company__link{
+	font-family: Roboto;
+	padding: 4px 0px;
+	font-size: 11pt;
+}
+
+.footer__partners{
+	padding-right: 170px;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+
+.design-by__text{
+	text-align: right;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #ccc;
 }
