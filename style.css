@@ -1,3 +1,18 @@
+@font-face {
+	font-family: 'Montserrat Regular'; 
+	src: url(fonts/Montserrat Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'MotserratBold'; 
+	src: url(fonts/MotserratBold.ttf); 
+}
+
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(fonts/Roboto.ttf); 
+}
+
 .page{
 	color: #333333;
 	margin: 0px;
