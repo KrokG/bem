@@ -1,16 +1,19 @@
 @font-face {
-	font-family: 'Montserrat Regular'; 
-	src: url(fonts/Montserrat Regular.ttf); 
+	font-family: 'Montserrat';
+	src: local('Montserrat'),
+		url('fonts/Montserrat.woff2') format('woff2'), 
+		url('fonts/Montserrat.woff') format('woff'),
+		url('fonts/Montserrat.ttf') format('ttf'),
+		url('fonts/Montserrat.eot') format('eot');
 }
 
 @font-face {
-	font-family: 'MotserratBold'; 
-	src: url(fonts/MotserratBold.ttf); 
-}
-
-@font-face {
-	font-family: 'Roboto'; 
-	src: url(fonts/Roboto.ttf); 
+	font-family: 'Roboto';
+	src: local('Font Name'),
+		url('fonts/Roboto.woff2') format('woff2'), 
+		url('fonts/Roboto.woff') format('woff'),
+		url('fonts/Roboto.ttf') format('ttf'),
+		url('fonts/Roboto.eot') format('eot');
 }
 
 .page{
@@ -403,3 +406,4 @@
 	letter-spacing:1px;
 	margin-bottom: 6px;
 }
+

@@ -1,9 +1,13 @@
-@media (min-width: 748px) and (max-width: 940px){
+@media (min-width: 768px) and (max-width: 958px){
 	.footer, .page__header, .page__content{
 		width: 748px;
 	}
 	.header__head-line{
 		padding: 0px 40px;
+	}
+
+	.page{
+		margin: auto;
 	}
 
 	.b-step{
@@ -46,6 +50,7 @@
 		height: 310px;
 	}
 	.footer{
+
 		margin-top: 1px;
 		width: 700px;
 	}
