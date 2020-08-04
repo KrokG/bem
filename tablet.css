@@ -20,9 +20,20 @@
 	}
 
 	.b-partners{
-		display: grid;
-		grid-template-rows: 1fr 1fr;
-		grid-template-columns: 1fr 1fr;
+		margin-top: 35px;
+		width: 510px;
+		flex-wrap: wrap;
+	}
+	.person{
+		height: 260px;
+		margin: auto;
+	}
+	.person__about{
+		margin-top: 15px;
+	}
+
+	.content-box__button-see-other{
+		margin-top: 10px;
 	}
 
 	.b-idea_style-long{
@@ -33,5 +44,16 @@
 	.b-idea_style{
 		width: 236px;
 		height: 310px;
+	}
+	.footer{
+		margin-top: 1px;
+		width: 700px;
+	}
+	.footer__partners{
+		padding: 0;
+	}
+
+	.footer__company{
+		padding: 0;
 	}
 }

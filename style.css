@@ -260,33 +260,40 @@
 .b-idea__img1{
 		background: url(images/idea1.png) no-repeat;
 		background-size: cover;
+		background-position: center;
 }
 
 .b-idea__img2{
 		background: url(images/idea2.png) no-repeat;
 		background-size: cover;
+		background-position: center;
 }
 
 .b-idea__img3{
 		background: url(images/idea3.png) no-repeat;
 		background-size: cover;
+		background-position: center;
 }
 .b-idea__img4{
 		background: url(images/idea4.png) no-repeat;
 		background-size: cover;
+		background-position: center;
 }
 .b-idea__img5{
 		background: url(images/idea5.png) no-repeat;
 		background-size: cover;
+		background-position: center;
 }
 .b-idea__img6{
 		background: url(images/idea6.png) no-repeat;
 		background-size: cover;
+		background-position: center;
 }
 
 .b-idea__img7{
 		background: url(images/idea7.png) no-repeat;
 		background-size: cover;
+		background-position: center;
 }
 
 .b-idea__text{
